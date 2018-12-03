@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dig.big.com.appa.MainActivity">
+    <item
+    android:id="@+id/action_time"
+    android:orderInCategory="100"
+    android:title="sort by time"
+    app:showAsAction="never" />
+    <item
+        android:id="@+id/action_status"
+        android:orderInCategory="100"
+        android:title="sort by status"
+        app:showAsAction="never" />
+
+</menu>
